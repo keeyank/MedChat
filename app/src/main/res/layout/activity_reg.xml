@@ -5,5 +5,67 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.michaelchang.lumohacks01.RegActivity">
+    
+    <EditText
+        android:id="@+id/enter_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enter_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirmation Key"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/enter_username"
+        app:layout_constraintTop_toBottomOf="@+id/enter_username" />
+
+    <EditText
+        android:id="@+id/enter_password"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/enter_confirmation"
+        app:layout_constraintTop_toBottomOf="@+id/enter_confirmation" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="SUBMIT"
+        app:layout_constraintBaseline_toBaselineOf="@+id/clear_button"
+        app:layout_constraintStart_toStartOf="@+id/enter_password" />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="CLEAR"
+        app:layout_constraintEnd_toEndOf="@+id/enter_password"
+        app:layout_constraintTop_toBottomOf="@+id/enter_password" />
+
+    <EditText
+        android:id="@+id/enter_password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/enter_password"
+        app:layout_constraintTop_toBottomOf="@+id/enter_password" />
 
 </android.support.constraint.ConstraintLayout>
