@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "36040386915",
+    "firebase_url": "https://med-connect-219b9.firebaseio.com",
+    "project_id": "med-connect-219b9",
+    "storage_bucket": "med-connect-219b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36040386915:android:194e253bec6c521f",
+        "android_client_info": {
+          "package_name": "com.example.michaelchang.lumohacks01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36040386915-trsbuq0ivj4pfol7mlr7jsajlc4vi3dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDYLDlJiAMmtxyNqTr4zMGEOh7JTwJ7Qw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
