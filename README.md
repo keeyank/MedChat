@@ -1,13 +1,13 @@
 # MedChat
 
-MedChat is an application that is targeted to individuals who suffer from a particular disease. This application allows users to communicate with others who suffer from a similar disease as yourself. 
+MedChat is an application for individuals suffering from a particular disease. MedChat allows users to communicate with others who suffer from a similar disease. 
 
 Progress so far:
-- We have created a database for each username and password
-- A login screen has been created
+- Created a database for usernames and passwords
+- Created a login screen
 
 
-Features that will be added:
-- A chatroom that is fully compatible with iOS and Android
-- The ability to delete your account
-- A unique title screen with an interesting design and concept behind it
+Features in development:
+- Chatroom compatible with iOS and Android
+- Account deletion
+- Title screen
